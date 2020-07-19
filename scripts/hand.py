@@ -86,13 +86,13 @@ class Hand(object):
         raise NotImplementedError()
 
     
-myHand = Hand(7)
-print(myHand)
-print(myHand.calculateLen())
+#myHand = Hand(7)
+#print(myHand)
+#print(myHand.calculateLen())
+#
+#myHand.setDummyHand('aazzmsp')
+#print(myHand)
+#print(myHand.calculateLen())
 
-myHand.setDummyHand('aazzmsp')
-print(myHand)
-print(myHand.calculateLen())
-
-myHand.update('za')
-print(myHand)
+#myHand.update('za')
+#print(myHand)
