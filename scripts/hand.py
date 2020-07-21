@@ -82,17 +82,27 @@ class Hand(object):
         word: string
         returns: Boolean (if the word was or was not made)
         """
-        # Your code here
-        raise NotImplementedError()
+        newHand = self.hand.copy()
+        for char in word:
+            if char in newHand.keys():
+                newHand[char] -= 1
+            else:
+                return False
+        self.hand = newHand
+        return True
+
 
     
-#myHand = Hand(7)
-#print(myHand)
-#print(myHand.calculateLen())
-#
-#myHand.setDummyHand('aazzmsp')
+myHand = Hand(7)
 #print(myHand)
 #print(myHand.calculateLen())
 
-#myHand.update('za')
+
+myHand.setDummyHand('aazzmsp')
+#print(myHand.hand)
 #print(myHand)
+#print(myHand.calculateLen())
+
+print(myHand.update('za'))
+print(myHand.hand)
+
