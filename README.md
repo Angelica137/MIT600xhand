@@ -1,9 +1,12 @@
 # MIT 600x Hand
 
-This is an OOP approach to the scribble functional problem from week 4.
+This is an OOP refactoring to the scribble functional problem from week 4 https://github.com/Angelica137/MITx600ProblemSet4.
 
-Word game
-Dealing A player is dealt a hand of n letters chosen at random (assume n=7 for now).
+I need to keep these separate for submission. 
+
+## Word game
+
+Dealing: A player is dealt a hand of n letters chosen at random (assume n=7 for now).
 
 The player arranges the hand into as many words as they want out of the letters, using each letter at most once.
 
