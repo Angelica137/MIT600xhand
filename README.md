@@ -1,8 +1,8 @@
 # MIT 600x Hand
 
-This is an OOP refactoring to the scribble functional problem from week 4 https://github.com/Angelica137/MITx600ProblemSet4.
+This is an OOP refactoring to the guessing words functional problem from week 4 https://github.com/Angelica137/MITx600ProblemSet4.
 
-I need to keep these separate for submission. 
+I need to keep these separate for submission or the grading will fail.
 
 ## Word game
 
